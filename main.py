@@ -15,8 +15,8 @@ def add_text(image, text, color) -> None:
     cv2.putText(image, text, (30, 50), TEXT['FONT'], TEXT['SCALE'], color, TEXT['SIZE'], cv2.LINE_AA)
 
 
-def add_parking_lot_space(events, x, y, flags, is_editable) -> None:
-    if not is_editable:
+def add_parking_lot_space(events, x, y, flags, editable) -> None:
+    if not editable:
         return
 
     if events == cv2.EVENT_LBUTTONDOWN:
