@@ -17,9 +17,10 @@ SPACE_COLORS = {
 TEXT = {
     'FONT': FONT_HERSHEY_SIMPLEX,
     'SIZE': 2,
-    'SCALE': 1,
+    'SCALE': 0.65,
     'COLORS': {
         'RED': (24, 24, 244),
-        'BLUE': (122, 64, 14)
+        'BLUE': (122, 64, 14),
+        'ORANGE': (21, 130, 239)
     }
 }
